@@ -6,17 +6,28 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common VoltageOS stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common Elytra OS stuff.
+$(call inherit-product, vendor/elytra/config/common_full_phone.mk)
 
-# Unofficial-ify
-VOLTAGE_BUILD_TYPE := UNOFFICIAL
+# ElytraOS Stuff
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_WIFI_EXT := true
+USE_PIXEL_CHARGING := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+ELYTRA_BUILD_TYPE := UNOFFICIAL
+
+# GApps
+TARGET_GAPPS_ARCH := arm64
+USE_GAPPS := true
+WITH_GAPPS := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := voltage_beryllium
+PRODUCT_NAME := elytra_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
