@@ -1,4 +1,4 @@
-Copyright (C) 2018 The LineageOS Project
+Copyright (C) 2022 The LineageOS Project
 
 Device configuration for Xiaomi Pocophone F1
 =========================================
