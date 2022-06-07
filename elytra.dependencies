@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "Test-com-x1",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch": "12.1"
+    "branch": "scorch"
   },
   {
     "remote": "github",
