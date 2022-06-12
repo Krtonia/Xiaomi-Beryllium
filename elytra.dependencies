@@ -1,21 +1,21 @@
 
   {
     "remote": "github",
-    "repository": "Test-com-x1",
+    "repository": "Krtonia/Test-com-x1",
     "target_path": "device/xiaomi/sdm845-common",
     "branch": "scorch"
   },
   {
     "remote": "github",
-    "repository": "vendor_xiaomi-1",
+    "repository": "Krtonia/vendor_xiaomi-xeesan",
     "target_path": "vendor/xiaomi",
     "branch": "scorch"
   },
   {
     "remote": "github",
-    "repository": "Painkiller3/kernel_xiaomi_sdm845",
+    "repository": "Krtonia/Rockstarkernel_beryllium",
     "target_path": "kernel/xiaomi/sdm845",
-    "branch": "twelve"
+    "branch": "master"
   },
   {
     "remote": "github",
